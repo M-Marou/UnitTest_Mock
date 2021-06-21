@@ -9,7 +9,7 @@ namespace Mocking
             return a + b;
         }
 
-        public int Sub(int a, int b)
+        public virtual int Sub(int a, int b)
         {
             throw new NotImplementedException();
         }
